@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="forest.css">
+    <title>Forest - Login/Register Screen</title>
+</head>
+<body>
+    <div class="container-btnScreen">
+        <button class="btnScreen">LOGIN</button>
+    </div>
+    <div class="back">
+        <a href="../index.html"><i class='bx bxs-left-arrow-circle'></i></a>
+    </div>
+    
+    <section>
+        <div class="container">
+            <div class="close">
+                <i class='bx bx-x'></i>
+            </div>
+            <div class="box login">
+                <h1>LOGIN</h1>
+                <form action="#">
+                    <div class="input">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input">
+                        <span class="icon"><i class='bx bxs-lock'></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="forgot">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn">LOGIN</button>
+                    <div class="question">
+                        <p>Don´t have a acconut? <a class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="box register">
+                <h1>REGISTER</h1>
+                <form action="#">
+                    <div class="input">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="text" required>
+                        <label>Name</label>
+                    </div>
+                    <div class="input">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input">
+                        <span class="icon"><i class='bx bxs-lock'></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="agree">
+                        <label>
+                            <input type="checkbox"> I agree to the
+                            <a href="#">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn">REGISTER</button>
+                    <div class="question">
+                        <p>Already have an acconut? <a class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="./forest.js"></script>
+</body>
+</html>

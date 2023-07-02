@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(180deg, #e770fa, #F7C6FF);
+}
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+.back{
+    position: absolute;
+    margin: 1rem;
+    z-index: 1;
+}
+.back i{
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #af00ca;
+    border-radius: 50%;
+    padding: .4rem;
+    transition: .4s;
+}
+.back i:hover{
+    transform: scale(110%);
+    background-color: #ff00c8;
+    transition: .4s;
+}
+h1{
+    color: #fff;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 420px;
+    padding: .4rem .1rem;
+    border-radius: 24px;
+    overflow: hidden;
+    backdrop-filter: blur(7px);
+    border: 8px solid #c007dd;
+    box-shadow: -10px 10px 8px rgba(0, 0, 0, .5);
+    background: rgba(255, 255, 255, .15);
+    animation: animation 1s infinite;
+}
+@keyframes animation {
+    2%{
+        border: 8px solid #f7b7ff;
+    }
+    100%{
+        border: 8px solid #c007dd;
+    }
+}
+.sakura img{
+    position: fixed;
+    width: 32.9rem;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.japan img{
+    position: fixed;
+    width: 25rem;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.content{
+    width: 100%;
+    padding: 20px;
+}
+.content h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.input input{
+    width: 100%;
+    padding-left: .5rem;
+    height: 2.2rem;
+    border-radius: 20px;
+    border: none;
+}
+.icon{
+    padding: 0 .5rem;
+    font-size: 1.4rem;
+    color: #af00ca;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    background: #ff00c8;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+.btn:hover{
+    background: #e051bc;
+    transform: scale(105%);
+    transition: .2s;
+}
+.register-link, .login-link, a{
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.question, .agree{
+    text-align: center;
+    color: #af00ca;
+    font-size: 1rem;
+}
+
+.container.active .content.login{
+    transition: none;
+    transform: translateY(-400px);
+    transition: .7s;
+}
+.container .content.register{
+    position: absolute;
+    transition: none;
+    transform: translateY(400px);
+    transition: .7s;
+}
+.container .content.login{
+    transition: transform .7s ease;
+    transform: translateY(0);
+}
+.container.active .content.register{
+    transition: transform .7s ease;
+    transform: translateY(0);
+}
+
+@media (max-width: 750px) {
+    .sakura img{
+        width: 25rem;
+    }
+    .japan img{
+        width: 14rem;
+    }
+}

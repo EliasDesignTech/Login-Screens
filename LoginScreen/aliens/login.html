@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="aliens.css">
+    <title>Forest - Login/Register Screen</title>
+</head>
+<body>
+    <div class="container-btnScreen">
+        <button class="btnScreen">LOGIN</button>
+    </div>
+    <div class="back">
+        <a href="../index.html"><i class='bx bxs-left-arrow-alt'></i></a>
+    </div>
+    
+    <section>
+        <div class="main">
+            <div class="img">
+                <img src="../img/aliens.png">
+            </div>
+            <div class="container">
+                <div class="close">
+                    <i class='bx bx-x'></i>
+                </div>
+                <div class="box login">
+                    <div class="box-title">
+                        <h1 class="title">Login</h1>
+                    </div>
+                    <form action="#">
+                        <div class="input">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <label>Email</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="input">
+                            <span class="icon"><i class='bx bxs-lock'></i></span>
+                            <label>Password</label>
+                            <input type="password" required>
+                        </div>
+                        <div class="forgot">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        <button type="submit" class="btn">LOGIN</button>
+                        <div class="question">
+                            <p class="register-link">Register</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="box register">
+                    <div class="box-title">
+                        <h1 class="title">Register</h1>
+                    </div>
+                    <form action="#">
+                        <div class="input">
+                            <span class="icon"><i class='bx bxs-user'></i></span>
+                            <label>Name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="input">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <label>Email</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="input">
+                            <span class="icon"><i class='bx bxs-lock'></i></span>
+                            <label>Password</label>
+                            <input type="password" required>
+                        </div>
+                        <div class="agree">
+                            <label>
+                                <input type="checkbox"> I agree to the
+                                <a href="#">Terms & Conditions</a>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn">REGISTER</button>
+                        <div class="question">
+                            <p class="login-link">Login</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./aliens.js"></script>
+</body>
+</html>

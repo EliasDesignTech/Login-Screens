@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="bluered.css">
+    <title>BlueRed</title>
+</head>
+<body>
+    <div class="back">
+        <a href="../index.html"><i class='bx bxs-left-arrow'></i> Back</a>
+    </div>
+    <section>
+        <div class="ball-blue">
+            <img src="../img/blue.png">
+        </div>
+        <div class="ball-red">
+            <img src="../img/red.png">
+        </div>
+        <div class="container">
+            <div class="content login">
+                <h1>LOGIN</h1>
+                <form action="#">
+                    <div class="input">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="input">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="forgot">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn">LOGIN</button>
+                    <div class="alert">
+                        <p>Don´t have a acconut? <a class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="content register">
+                <h1>REGISTER</h1>
+                <form action="#">
+                    <div class="input">
+                        <input type="text" placeholder="Username" required>
+                    </div>
+                    <div class="input">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="input">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="agree">
+                        <label>
+                            <input type="checkbox"> I agree to the
+                            <a href="#">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn">REGISTER</button>
+                    <div class="alert">
+                        <p>Already have an acconut? <a class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="./bluered.js"></script>
+</body>
+</html>

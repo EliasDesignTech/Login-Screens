@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="sakura.css">
+    <title>SAKURA</title>
+</head>
+<body>
+    <div class="back">
+        <a href="../index.html"><i class='bx bx-arrow-back'></i></a>
+    </div>
+    <section>
+        <div class="sakura">
+            <img src="../img/sakura.png">
+        </div>
+        <div class="japan">
+            <img src="../img/japan.png">
+        </div>
+        <div class="container">
+            <div class="content login">
+                <h1>LOGIN</h1>
+                <form action="#">
+                    <div class="input">
+                        <span class="icon">
+                            <i class='bx bx-envelope'></i>
+                        </span>
+                        <input type="email" placeholder="email@example.com" required>
+                    </div>
+                    <div class="input">
+                        <span class="icon">
+                            <i class='bx bx-lock-alt'></i>
+                        </span>
+                        <input type="password" placeholder="Your password" required>
+                    </div>
+                    <div class="forgot">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn">LOGIN</button>
+                    <div class="question">
+                        <p>Don´t have a acconut? <a class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="content register">
+                <h1>REGISTER</h1>
+                <form action="#">
+                    <div class="input">
+                        <span class="icon">
+                            <i class='bx bx-user'></i>
+                        </span>
+                        <input type="text" placeholder="Example: FirstName and LastName" required>
+                    </div>
+                    <div class="input">
+                        <span class="icon">
+                            <i class='bx bx-envelope'></i>
+                        </span>
+                        <input type="email" placeholder="email@example.com" required>
+                    </div>
+                    <div class="input">
+                        <span class="icon">
+                            <i class='bx bx-lock-alt'></i>
+                        </span>
+                        <input type="password" placeholder="Your password" required>
+                    </div>
+                    <div class="agree">
+                        <label>
+                            <input type="checkbox"> I agree to the
+                            <a href="#">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn">REGISTER</button>
+                    <div class="question">
+                        <p>Already have an acconut? <a class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="./sakura.js"></script>
+</body>
+</html>
