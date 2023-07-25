@@ -1,14 +1,14 @@
 # Login-Screens
 (English)<br>
 Login Screens:
-- responsive
+- Responsive
 - Themes
-- illustrations
+- Illustrations
 
 ##
 (Português - BR)<br>
 Telas de Login:
-- responsivas
+- Responsivas
 - Temas
 - Ilustrações
 
