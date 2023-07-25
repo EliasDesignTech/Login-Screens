@@ -4,20 +4,15 @@ Login Screens:
 - responsive
 - Themes
 - illustrations
-<br>
 
-Code:
-- HTML
-- CSS
-- JAVASCRIPT
 ##
 (Português - BR)<br>
 Telas de Login:
 - responsivas
 - Temas
 - Ilustrações
-<br>
 
+##
 Código:
 - HTML
 - CSS
