@@ -13,7 +13,7 @@ Telas de Login:
 - Ilustrações
 
 ##
-Código:
+Code:
 - HTML
 - CSS
 - JAVASCRIPT
